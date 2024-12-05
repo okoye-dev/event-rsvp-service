@@ -6,7 +6,7 @@ const port = process.env.PORT
 
 app.get('/', (req, res) => {
   res.status(200).json({
-    message: 'Hope is the mind killer, hope is the last to die',
+    message: 'Wilkommen to the Event RSVP Service',
   })
 })
 

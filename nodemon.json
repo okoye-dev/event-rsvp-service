@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "ignore": ["dist"],
-  "exec": "tsc && node dist/main.js"
+  "ignore": ["build"],
+  "exec": "tsc && node build/main.js"
 }
