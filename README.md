@@ -40,6 +40,7 @@ JWT_SECRET=your-jwt-secret
 ### 3.5 Prettier & ESLint
 
 Run `npm i --save-dev eslint @eslint/js @types/eslint__js typescript typescript-eslint`
+
 Then run `npm i --save-dev --exact prettier`
 
 ### 4. Start with Server
