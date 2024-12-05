@@ -1,9 +1,9 @@
 # Event RSVP Service
 
-This is the backend server for managing event RSVPs. The service uses **TypeScript**, **Node.js**, and **Express** for core functionality.
----
+## This is the backend server for managing event RSVPs. The service uses **TypeScript**, **Node.js**, and **Express** for core functionality.
 
 ## Features
+
 - User and event management
 - RSVP functionality
 - RESTful API with clear endpoints
@@ -13,27 +13,39 @@ This is the backend server for managing event RSVPs. The service uses **TypeScri
 ## Getting Started
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/okoye-dev/event-rsvp-service.git
 cd event-rsvp-service
 ```
 
 ### 2. Install Dependencies
+
 Run the following command to install all required dependencies:
+
 ```bash
 npm install
 ```
 
-### 3. Setup Environment Variables
+### 3. Setup & Environment Variables
+
 Create a `.env` file in the root directory and configure it with the necessary environment variables. Use the example below as a reference:
+
 ```
 PORT=3000
 DATABASE_URL=your-database-url
 JWT_SECRET=your-jwt-secret
 ```
 
+### 3.5 Prettier & ESLint
+
+Run `npm i --save-dev eslint @eslint/js @types/eslint__js typescript typescript-eslint`
+Then run `npm i --save-dev --exact prettier`
+
 ### 4. Start with Server
+
 For development, run `npm run dev`, for build:
+
 ```bash
 npm start
 ```
@@ -48,12 +60,15 @@ npm start
 ---
 
 ## API Documentation
+
 The full API documentation is available in the `/docs` folder or via the `/api-docs` endpoint (if Swagger is implemented).
 
 ---
 
 ## Contributing
+
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature/your-feature-name`).
 3. Commit your changes (`git commit -m "Add some feature"`).
@@ -63,10 +78,15 @@ Contributions are welcome! Please follow these steps:
 ---
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Questions?
+
 Feel free to open an issue or contact the repository maintainer for further assistance.
+
+```
+
 ```
