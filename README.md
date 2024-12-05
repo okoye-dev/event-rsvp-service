@@ -55,8 +55,28 @@ npm start
 
 ## Available Scripts
 
-- **`npm run dev`** - Starts the server in development mode using `ts-node` and `nodemon`.
-- **`npm start`** - Starts the compiled server in production mode.
+Here are the scripts you can use to manage and develop the project:
+
+- **`npm run dev`**  
+  Starts the server in development mode using `nodemon`. This watches for file changes and restarts the server automatically.
+
+- **`npm start`**  
+  Starts the compiled server in production mode. Make sure to compile the TypeScript files using `tsc` before running this command.
+
+- **`npm run format`**  
+  Formats the codebase using `Prettier` to ensure consistent style and formatting.
+
+- **`npm run lint`**  
+  Lints the TypeScript files in the `src` directory using `ESLint`, identifying any issues in the code.
+
+- **`npm run lint:fix`**  
+  Lints and automatically fixes fixable issues in the TypeScript files using `ESLint`.
+
+### Usage
+
+- During development, use `npm run dev` to run the server with live-reload capabilities.
+- Before committing, run `npm run format` and `npm run lint` to ensure the code follows the project's style and standards.
+- In production, use `npm start` after compiling the TypeScript files to `JavaScript`.
 
 ---
 
